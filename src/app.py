@@ -7,6 +7,11 @@ app = Flask(__name__)
 def index():
     return "hola, mundo"
 
+
+@app.route('/hello')
+def error():
+    return "hello----"
+
 @app.route('/suma')
 def suma():
  a = 2
