@@ -19,3 +19,12 @@ def suma():
 
  num_sum = a+b
  return str (num_sum)
+ 
+ 
+@app.route('/sumaa')
+def sumaa():
+ a = 2
+ b = 5
+
+ num_summ = a+b
+ return str (num_summ)
