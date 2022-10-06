@@ -8,7 +8,9 @@ def index():
     return "hola, mundo"
 
 @app.route('/suma')
-def suma(a: int, b: int):
+def suma():
  a = 2
  b = 5
- return a+b
+
+ num_sum = a+b
+ return str (num_sum)
