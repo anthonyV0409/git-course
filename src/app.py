@@ -6,3 +6,9 @@ app = Flask(__name__)
 @app.route("/")
 def index():
     return "hola, mundo"
+
+@pp.route("/suma")
+def suma(a: int, b: int):
+ a = 2
+ b = 5
+ return a+b
