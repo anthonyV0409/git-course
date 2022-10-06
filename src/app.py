@@ -3,11 +3,11 @@ from flask import Flask
 
 app = Flask(__name__)
 
-@app.route("/")
+@app.route('/')
 def index():
     return "hola, mundo"
 
-@pp.route("/suma")
+@app.route('/suma')
 def suma(a: int, b: int):
  a = 2
  b = 5
